@@ -17,4 +17,9 @@ Plug 'sheerun/vim-polyglot'
 
 " Best theme OneDark
 Plug 'joshdick/onedark.vim'
+
+" LSP
+" Use release branch (recommend)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
