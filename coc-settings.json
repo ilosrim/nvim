@@ -1,3 +1,8 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "javascriptreact", "typescript", "python", "graphql", "html", "yaml",  "json", "python"]
+   "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "javascriptreact", "typescript", "python", "graphql", "html", "yaml",  "json"],
+   "eslint.validate": ["typescript"],
+   "eslint.lintTask.options": [".", "--ext", ".ts"],
+   "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+   "typescript.suggestionActions.enabled": false,
 }
